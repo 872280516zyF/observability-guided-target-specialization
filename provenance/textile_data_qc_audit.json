@@ -1,0 +1,33 @@
+{
+  "source_csvs_in_concatenation_order": [
+    "data\\images3\\label_train.csv",
+    "data\\images3\\label_val.csv"
+  ],
+  "raw_rows_after_numeric_validity_filter": 1455,
+  "duplicate_id_rule": "canonicalize sample_id by trimming whitespace and a terminal .0; keep the first occurrence in source-table concatenation order",
+  "duplicate_id_rows_removed": 214,
+  "duplicate_ids_with_later_occurrences": 214,
+  "duplicate_ids_with_conflicting_parameter_or_group_fields": 0,
+  "rows_after_id_deduplication": 1241,
+  "excluded_unverified_entry_id": "877",
+  "entry_error_rows_removed": 1,
+  "final_samples": 1240,
+  "final_unique_sample_ids": 1240,
+  "final_initial_image_groups": 29,
+  "missing_initial_images": 0,
+  "missing_processed_images": 0,
+  "image_duplicate_audit": {
+    "role": "cross-partition audit only; not the sample-ID deduplication rule",
+    "exact_method": "SHA-256 of encoded image file",
+    "exact_cross_partition_pairs_foldwise": 0,
+    "perceptual_method": "64-bit horizontal difference hash",
+    "perceptual_hamming_threshold": 2,
+    "perceptual_candidate_instances_foldwise": 13,
+    "perceptual_candidate_pairs_unique": 5,
+    "candidate_policy": "Perceptual candidates are an audit list for review, not automatic proof of duplicated experimental units."
+  },
+  "source_hashes": {
+    "data\\images3\\label_train.csv": "b514a6d8f0a6d59d0b5daa98eed30d61caae245e948166a11b464c764ba96044",
+    "data\\images3\\label_val.csv": "765ba18fd50a0b3710439bed6ca5c9c5ac22be2faa14c88eef464a347711c34a"
+  }
+}
