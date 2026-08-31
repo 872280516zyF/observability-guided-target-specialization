@@ -1,0 +1,12 @@
+﻿cff-version: 1.2.0
+message: "If you use this software, please cite the associated article and this code repository."
+title: "Code for Unequal visual observability guides target-specific specialization in image-based inverse inference"
+type: software
+authors:
+  - family-names: "Zhang"
+    given-names: "Yufan"
+    affiliation: "Wuhan Textile University"
+version: "1.0.0"
+date-released: "2026-08-31"
+repository-code: "https://github.com/872280516zyF/observability-guided-target-specialization"
+license: MIT
